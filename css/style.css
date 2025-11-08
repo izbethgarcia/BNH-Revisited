@@ -1,0 +1,86 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f4f4f9;
+  text-align: center;
+  color: #333;
+}
+
+h2 {
+  color: #1b6ca8;
+  margin-bottom: 30px;
+}
+
+p {
+  font-size: 1.1em;
+}
+
+hr {
+  width: 70%;
+  margin: 20px auto;
+  border: 1px solid #1b6ca8;
+}
+
+#buttons button {
+  background-color: #1b6ca8;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  padding: 10px 20px;
+  margin: 10px;
+  font-size: 1em;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+#buttons button:hover {
+  background-color: #14527e;
+}
+
+#rules {
+  text-align: left;
+  display: inline-block;
+  margin-top: 20px;
+}
+
+#rules ul {
+  list-style-type: disc;
+  padding-left: 20px;
+}
+
+#resultsBox {
+  background-color: #eaf4ff;
+  border: 2px solid #1b6ca8;
+  padding: 20px;
+  border-radius: 10px;
+  width: 60%;
+  margin: 30px auto;
+}
+
+#gameResults {
+  font-weight: bold;
+  font-size: 1.2em;
+  margin-bottom: 10px;
+}
+
+#winCounter {
+  margin-bottom: 10px;
+  color: #333;
+  text-align: center;
+}
+
+#playAgainBtn {
+  background-color: #2f8f83;
+  color: blue;
+  border: none;
+  border-radius: 5px;
+  padding: 10px 20px;
+  cursor: pointer;
+}
+
+#playAgainButton:hover {
+  background-color: #256a62;
+}
+
+.hidden {
+  display: none;
+}

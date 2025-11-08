@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="author" content="Lizbeth Garcia">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Bear, Ninja, Hunter</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <h2> Bear, Ninja, Hunter </h2>
+  <p id="text">Play against the computer!</p>
+
+  <div id="rules">
+    <ul>
+      <li>The Bear Beats the Hunter.</li>
+      <li>The Hunter beats the Ninja.</li>
+      <li>And the Ninja beats the Bear.</li>
+    </ul>
+  </div>
+  
+  <p id="Text">Click a button below to select your choice.</p>
+  
+  <hr>
+
+  <div id="buttons">
+    <button onclick="playGame('bear')">Bear</button>
+    <button onclick="playGame('ninja')">Ninja</button>
+    <button onclick="playGame('hunter')">Hunter</button>
+  </div>
+
+  <hr>
+
+  <div id="resultsBox" class="hidden">
+    <p id="gameResults"></p>
+  </div>
+  
+  <div id="gameControls" class="hidden">
+    <p id="winCounter"></p>
+    <hr>
+    <button id="playAgainButton" onclick="resetGame()">Play Again?</button>
+    <hr>
+  </div>
+  
+  <script src="script.js"></script>
+</body>
+</html>
